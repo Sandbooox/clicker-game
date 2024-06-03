@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Simulator Game with Shop</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <meta name="description" content="Click me! please!">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Clicker Simulator Game with Shop</h1>
+        <div id="counter">0</div>
+        <button id="clickButton">Click Me!</button>
+        
+        <h2>Shop</h2>
+        <div id="shop">
+            <div class="shop-item">
+                <span>Upgrade Click (Cost: <span id="upgradeCost">10</span>)</span>
+                <button class="buy-button" data-item="upgradeClick">Buy</button>
+            </div>
+            <div class="shop-item">
+                <span>Auto Clicker (Cost: <span id="autoClickerCost">50</span>)</span>
+                <button class="buy-button" data-item="autoClicker">Buy</button>
+            </div>
+            <div class="shop-item">
+                <span>Double Click Value (Cost: <span id="doubleClickCost">100</span>)</span>
+                <button class="buy-button" data-item="doubleClick">Buy</button>
+            </div>
+            <div class="shop-item">
+                <span>Increase Auto Click Speed (Cost: <span id="autoClickSpeedCost">200</span>)</span>
+                <button class="buy-button" data-item="autoClickSpeed">Buy</button>
+            </div>
+            <div class="shop-item">
+                <span>Triple Click Value (Cost: <span id="tripleClickCost">500</span>)</span>
+                <button class="buy-button" data-item="tripleClick">Buy</button>
+            </div>
+        </div>
+        <button id="resetButton">Reset Game</button>
+    </div>
+    <script src="assets/javascript.js"></script>
+</body>
+</html>
